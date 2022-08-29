@@ -1,0 +1,2426 @@
+{
+    "success": true,
+    "code": 200,
+    "message": "",
+    "meta": "",
+    "data": [
+        {
+            "currency": "VND",
+            "dn401": 0,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 17600,
+            "dn408": 17600,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7e3",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "08:30:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "09:40:00"
+                    ],
+                    "dv108": "VJ602",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "Eco",
+                    "dv114": "E1_ECO",
+                    "dn115": 0,
+                    "dv116": "0VJ602E1_ECOSGNCXR202209060830",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 0,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7e4",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "08:30:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "09:40:00"
+                            ],
+                            "dv308": "VJ602",
+                            "dn309": 70,
+                            "dv310": "E",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv324": "2022-09-06T08:30:00",
+                            "dv325": "2022-09-06T09:40:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7e5"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv120": "Phổ thông",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7e4"
+                }
+            ],
+            "dn425": 390600,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7e3"
+        },
+        {
+            "currency": "VND",
+            "dn401": 1,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 669900,
+            "dn408": 669900,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7e6",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "08:30:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "09:40:00"
+                    ],
+                    "dv108": "VJ602",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "Deluxe",
+                    "dv114": "A1_DLX",
+                    "dn115": 0,
+                    "dv116": "0VJ602A1_DLXSGNCXR202209060830",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 1,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7e7",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "08:30:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "09:40:00"
+                            ],
+                            "dv308": "VJ602",
+                            "dn309": 70,
+                            "dv310": "A",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv323": "20kg",
+                            "dv324": "2022-09-06T08:30:00",
+                            "dv325": "2022-09-06T09:40:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7e8"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv120": "Deluxe",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7e7"
+                }
+            ],
+            "dn425": 1042900,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7e6"
+        },
+        {
+            "currency": "VND",
+            "dn401": 2,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 1826000,
+            "dn408": 1826000,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7e9",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "08:30:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "09:40:00"
+                    ],
+                    "dv108": "VJ602",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "SkyBoss",
+                    "dv114": "V_SBoss",
+                    "dn115": 0,
+                    "dv116": "0VJ602V_SBossSGNCXR202209060830",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 2,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7ea",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "08:30:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "09:40:00"
+                            ],
+                            "dv308": "VJ602",
+                            "dn309": 70,
+                            "dv310": "V",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "10kg",
+                            "dv323": "30kg",
+                            "dv324": "2022-09-06T08:30:00",
+                            "dv325": "2022-09-06T09:40:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7eb"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7ea"
+                }
+            ],
+            "dn425": 2199000,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7e9"
+        },
+        {
+            "currency": "VND",
+            "dn401": 3,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 17600,
+            "dn408": 17600,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7ec",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "12:30:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "13:40:00"
+                    ],
+                    "dv108": "VJ604",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "Eco",
+                    "dv114": "E1_ECO",
+                    "dn115": 0,
+                    "dv116": "0VJ604E1_ECOSGNCXR202209061230",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 3,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7ed",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "12:30:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "13:40:00"
+                            ],
+                            "dv308": "VJ604",
+                            "dn309": 70,
+                            "dv310": "E",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv324": "2022-09-06T12:30:00",
+                            "dv325": "2022-09-06T13:40:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7ee"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv120": "Phổ thông",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7ed"
+                }
+            ],
+            "dn425": 390600,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7ec"
+        },
+        {
+            "currency": "VND",
+            "dn401": 4,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 669900,
+            "dn408": 669900,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7ef",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "12:30:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "13:40:00"
+                    ],
+                    "dv108": "VJ604",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "Deluxe",
+                    "dv114": "A1_DLX",
+                    "dn115": 0,
+                    "dv116": "0VJ604A1_DLXSGNCXR202209061230",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 4,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7f0",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "12:30:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "13:40:00"
+                            ],
+                            "dv308": "VJ604",
+                            "dn309": 70,
+                            "dv310": "A",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv323": "20kg",
+                            "dv324": "2022-09-06T12:30:00",
+                            "dv325": "2022-09-06T13:40:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7f1"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv120": "Deluxe",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7f0"
+                }
+            ],
+            "dn425": 1042900,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7ef"
+        },
+        {
+            "currency": "VND",
+            "dn401": 5,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 1826000,
+            "dn408": 1826000,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7f2",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "12:30:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "13:40:00"
+                    ],
+                    "dv108": "VJ604",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "SkyBoss",
+                    "dv114": "V_SBoss",
+                    "dn115": 0,
+                    "dv116": "0VJ604V_SBossSGNCXR202209061230",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 5,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7f3",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "12:30:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "13:40:00"
+                            ],
+                            "dv308": "VJ604",
+                            "dn309": 70,
+                            "dv310": "V",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "10kg",
+                            "dv323": "30kg",
+                            "dv324": "2022-09-06T12:30:00",
+                            "dv325": "2022-09-06T13:40:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7f4"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7f3"
+                }
+            ],
+            "dn425": 2199000,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7f2"
+        },
+        {
+            "currency": "VND",
+            "dn401": 6,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 17600,
+            "dn408": 17600,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7f5",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "17:05:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "18:15:00"
+                    ],
+                    "dv108": "VJ610",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "Eco",
+                    "dv114": "E1_ECO",
+                    "dn115": 0,
+                    "dv116": "0VJ610E1_ECOSGNCXR202209061705",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 6,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7f6",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "17:05:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "18:15:00"
+                            ],
+                            "dv308": "VJ610",
+                            "dn309": 70,
+                            "dv310": "E",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv324": "2022-09-06T17:05:00",
+                            "dv325": "2022-09-06T18:15:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7f7"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv120": "Phổ thông",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7f6"
+                }
+            ],
+            "dn425": 390600,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7f5"
+        },
+        {
+            "currency": "VND",
+            "dn401": 7,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 669900,
+            "dn408": 669900,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7f8",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "17:05:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "18:15:00"
+                    ],
+                    "dv108": "VJ610",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "Deluxe",
+                    "dv114": "A1_DLX",
+                    "dn115": 0,
+                    "dv116": "0VJ610A1_DLXSGNCXR202209061705",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 7,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7f9",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "17:05:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "18:15:00"
+                            ],
+                            "dv308": "VJ610",
+                            "dn309": 70,
+                            "dv310": "A",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv323": "20kg",
+                            "dv324": "2022-09-06T17:05:00",
+                            "dv325": "2022-09-06T18:15:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7fa"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv120": "Deluxe",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7f9"
+                }
+            ],
+            "dn425": 1042900,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7f8"
+        },
+        {
+            "currency": "VND",
+            "dn401": 8,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 0,
+            "dn405": 0,
+            "dn407": 1826000,
+            "dn408": 1826000,
+            "dn409": 0,
+            "dn410": 23000,
+            "dn411": 23000,
+            "dn412": 0,
+            "dn413": 350000,
+            "dn414": 230000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7fb",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 0,
+                    "dv104": "SGN",
+                    "dv105": "CXR",
+                    "dd106": [
+                        "2022-09-06",
+                        "17:05:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "18:15:00"
+                    ],
+                    "dv108": "VJ610",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 70,
+                    "dn112": 0,
+                    "dv113": "SkyBoss",
+                    "dv114": "V_SBoss",
+                    "dn115": 0,
+                    "dv116": "0VJ610V_SBossSGNCXR202209061705",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 8,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7fc",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "SGN",
+                            "dv304": "CXR",
+                            "dd306": [
+                                "2022-09-06",
+                                "17:05:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "18:15:00"
+                            ],
+                            "dv308": "VJ610",
+                            "dn309": 70,
+                            "dv310": "V",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "10kg",
+                            "dv323": "30kg",
+                            "dv324": "2022-09-06T17:05:00",
+                            "dv325": "2022-09-06T18:15:00",
+                            "dv326": "Hồ Chí Minh",
+                            "dv327": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv328": "Nha Trang",
+                            "dv329": "Sân bay Cam Ranh",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b7fd"
+                        }
+                    ],
+                    "dv118": "Hồ Chí Minh",
+                    "dv119": "Nha Trang",
+                    "dv121": "Sân bay quốc tế Tân Sơn Nhất",
+                    "dv122": "Sân bay Cam Ranh",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7fc"
+                }
+            ],
+            "dn425": 2199000,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7fb"
+        },
+        {
+            "currency": "VND",
+            "dn401": 9,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 17600,
+            "dn408": 17600,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b7fe",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "10:15:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "11:20:00"
+                    ],
+                    "dv108": "VJ603",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "Eco",
+                    "dv114": "E1_ECO",
+                    "dn115": 0,
+                    "dv116": "1VJ603E1_ECOCXRSGN202209061015",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 9,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b7ff",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "10:15:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "11:20:00"
+                            ],
+                            "dv308": "VJ603",
+                            "dn309": 65,
+                            "dv310": "E",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv324": "2022-09-06T10:15:00",
+                            "dv325": "2022-09-06T11:20:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b800"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv120": "Phổ thông",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b7ff"
+                }
+            ],
+            "dn425": 357600,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b7fe"
+        },
+        {
+            "currency": "VND",
+            "dn401": 10,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 669900,
+            "dn408": 669900,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b801",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "10:15:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "11:20:00"
+                    ],
+                    "dv108": "VJ603",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "Deluxe",
+                    "dv114": "A1_DLX",
+                    "dn115": 0,
+                    "dv116": "1VJ603A1_DLXCXRSGN202209061015",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 10,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b802",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "10:15:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "11:20:00"
+                            ],
+                            "dv308": "VJ603",
+                            "dn309": 65,
+                            "dv310": "A",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv323": "20kg",
+                            "dv324": "2022-09-06T10:15:00",
+                            "dv325": "2022-09-06T11:20:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b803"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv120": "Deluxe",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b802"
+                }
+            ],
+            "dn425": 1009900,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b801"
+        },
+        {
+            "currency": "VND",
+            "dn401": 11,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 1826000,
+            "dn408": 1826000,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b804",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "10:15:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "11:20:00"
+                    ],
+                    "dv108": "VJ603",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "SkyBoss",
+                    "dv114": "V_SBoss",
+                    "dn115": 0,
+                    "dv116": "1VJ603V_SBossCXRSGN202209061015",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 11,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b805",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "10:15:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "11:20:00"
+                            ],
+                            "dv308": "VJ603",
+                            "dn309": 65,
+                            "dv310": "V",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "10kg",
+                            "dv323": "30kg",
+                            "dv324": "2022-09-06T10:15:00",
+                            "dv325": "2022-09-06T11:20:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b806"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b805"
+                }
+            ],
+            "dn425": 2166000,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b804"
+        },
+        {
+            "currency": "VND",
+            "dn401": 12,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 17600,
+            "dn408": 17600,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b807",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "13:45:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "14:50:00"
+                    ],
+                    "dv108": "VJ605",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "Eco",
+                    "dv114": "E1_ECO",
+                    "dn115": 0,
+                    "dv116": "1VJ605E1_ECOCXRSGN202209061345",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 12,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b808",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "13:45:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "14:50:00"
+                            ],
+                            "dv308": "VJ605",
+                            "dn309": 65,
+                            "dv310": "E",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv324": "2022-09-06T13:45:00",
+                            "dv325": "2022-09-06T14:50:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b809"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv120": "Phổ thông",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b808"
+                }
+            ],
+            "dn425": 357600,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b807"
+        },
+        {
+            "currency": "VND",
+            "dn401": 13,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 669900,
+            "dn408": 669900,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b80a",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "13:45:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "14:50:00"
+                    ],
+                    "dv108": "VJ605",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "Deluxe",
+                    "dv114": "A1_DLX",
+                    "dn115": 0,
+                    "dv116": "1VJ605A1_DLXCXRSGN202209061345",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 13,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b80b",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "13:45:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "14:50:00"
+                            ],
+                            "dv308": "VJ605",
+                            "dn309": 65,
+                            "dv310": "A",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv323": "20kg",
+                            "dv324": "2022-09-06T13:45:00",
+                            "dv325": "2022-09-06T14:50:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b80c"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv120": "Deluxe",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b80b"
+                }
+            ],
+            "dn425": 1009900,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b80a"
+        },
+        {
+            "currency": "VND",
+            "dn401": 14,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 1826000,
+            "dn408": 1826000,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b80d",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "13:45:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "14:50:00"
+                    ],
+                    "dv108": "VJ605",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "SkyBoss",
+                    "dv114": "V_SBoss",
+                    "dn115": 0,
+                    "dv116": "1VJ605V_SBossCXRSGN202209061345",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 14,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b80e",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "13:45:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "14:50:00"
+                            ],
+                            "dv308": "VJ605",
+                            "dn309": 65,
+                            "dv310": "V",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "10kg",
+                            "dv323": "30kg",
+                            "dv324": "2022-09-06T13:45:00",
+                            "dv325": "2022-09-06T14:50:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b80f"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b80e"
+                }
+            ],
+            "dn425": 2166000,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b80d"
+        },
+        {
+            "currency": "VND",
+            "dn401": 15,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 17600,
+            "dn408": 17600,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b810",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "18:50:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "19:55:00"
+                    ],
+                    "dv108": "VJ607",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "Eco",
+                    "dv114": "E1_ECO",
+                    "dn115": 0,
+                    "dv116": "1VJ607E1_ECOCXRSGN202209061850",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 15,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b811",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "18:50:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "19:55:00"
+                            ],
+                            "dv308": "VJ607",
+                            "dn309": 65,
+                            "dv310": "E",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv324": "2022-09-06T18:50:00",
+                            "dv325": "2022-09-06T19:55:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b812"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv120": "Phổ thông",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b811"
+                }
+            ],
+            "dn425": 357600,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b810"
+        },
+        {
+            "currency": "VND",
+            "dn401": 16,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 669900,
+            "dn408": 669900,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b813",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "18:50:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "19:55:00"
+                    ],
+                    "dv108": "VJ607",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "Deluxe",
+                    "dv114": "A1_DLX",
+                    "dn115": 0,
+                    "dv116": "1VJ607A1_DLXCXRSGN202209061850",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 16,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b814",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "18:50:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "19:55:00"
+                            ],
+                            "dv308": "VJ607",
+                            "dn309": 65,
+                            "dv310": "A",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "7kg",
+                            "dv323": "20kg",
+                            "dv324": "2022-09-06T18:50:00",
+                            "dv325": "2022-09-06T19:55:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b815"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv120": "Deluxe",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b814"
+                }
+            ],
+            "dn425": 1009900,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b813"
+        },
+        {
+            "currency": "VND",
+            "dn401": 17,
+            "dv402": "VJ",
+            "dn403": 0,
+            "dn404": 1,
+            "dn405": 0,
+            "dn407": 1826000,
+            "dn408": 1826000,
+            "dn409": 0,
+            "dn410": 20000,
+            "dn411": 20000,
+            "dn412": 0,
+            "dn413": 320000,
+            "dn414": 200000,
+            "dn415": 0,
+            "dn416": 0,
+            "dn417": 0,
+            "dn418": 0,
+            "dn422": 1,
+            "dn423": 0,
+            "dn424": 0,
+            "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+            "fd100": [
+                {
+                    "pd400": "630868af6f703b6a3671b816",
+                    "dn101": 0,
+                    "dv102": "VJ",
+                    "dn103": 1,
+                    "dv104": "CXR",
+                    "dv105": "SGN",
+                    "dd106": [
+                        "2022-09-06",
+                        "18:50:00"
+                    ],
+                    "dd107": [
+                        "2022-09-06",
+                        "19:55:00"
+                    ],
+                    "dv108": "VJ607",
+                    "dn109": 0,
+                    "dn110": 0,
+                    "dn111": 65,
+                    "dn112": 0,
+                    "dv113": "SkyBoss",
+                    "dv114": "V_SBoss",
+                    "dn115": 0,
+                    "dv116": "1VJ607V_SBossCXRSGN202209061850",
+                    "session": "OTATAMVUONGVJSGNCXR06092022VJCXRSGN06092022934133109",
+                    "dn117": 17,
+                    "fd300": [
+                        {
+                            "pd100": "630868af6f703b6a3671b817",
+                            "dn301": 0,
+                            "dv302": "VJ",
+                            "dv303": "CXR",
+                            "dv304": "SGN",
+                            "dd306": [
+                                "2022-09-06",
+                                "18:50:00"
+                            ],
+                            "dd307": [
+                                "2022-09-06",
+                                "19:55:00"
+                            ],
+                            "dv308": "VJ607",
+                            "dn309": 65,
+                            "dv310": "V",
+                            "dv311": "321",
+                            "dn314": 0,
+                            "dn316": 0,
+                            "dn317": 0,
+                            "dn318": 0,
+                            "dn319": 0,
+                            "dn320": 0,
+                            "dn321": 0,
+                            "dv322": "10kg",
+                            "dv323": "30kg",
+                            "dv324": "2022-09-06T18:50:00",
+                            "dv325": "2022-09-06T19:55:00",
+                            "dv326": "Nha Trang",
+                            "dv327": "Sân bay Cam Ranh",
+                            "dv328": "Hồ Chí Minh",
+                            "dv329": "Sân bay quốc tế Tân Sơn Nhất",
+                            "dv333": "Airbus A321 321",
+                            "d800": {
+                                "dv801": "VJ",
+                                "dv802": "VJ.png",
+                                "dv803": "vj.gif",
+                                "dn805": 0,
+                                "dv810": "https://media.hahalolo.com/other/flight/logo",
+                                "dv811": "https://media.hahalolo.com/other/flight/logo",
+                                "fd801": [
+                                    {
+                                        "lang": "vi",
+                                        "dv806": "Vietjet Air",
+                                        "id": "5e9fbcba0138fb3128cddb58"
+                                    }
+                                ],
+                                "id": "5e9fbcba0138fb3128cdde21"
+                            },
+                            "id": "630868af6f703b6a3671b818"
+                        }
+                    ],
+                    "dv118": "Nha Trang",
+                    "dv119": "Hồ Chí Minh",
+                    "dv121": "Sân bay Cam Ranh",
+                    "dv122": "Sân bay quốc tế Tân Sơn Nhất",
+                    "d800": {
+                        "dv801": "VJ",
+                        "dv802": "VJ.png",
+                        "dv803": "vj.gif",
+                        "dn805": 0,
+                        "dv810": "https://media.hahalolo.com/other/flight/logo",
+                        "dv811": "https://media.hahalolo.com/other/flight/logo",
+                        "fd801": [
+                            {
+                                "lang": "vi",
+                                "dv806": "Vietjet Air",
+                                "id": "5e9fbcba0138fb3128cddb58"
+                            }
+                        ],
+                        "id": "5e9fbcba0138fb3128cdde21"
+                    },
+                    "id": "630868af6f703b6a3671b817"
+                }
+            ],
+            "dn425": 2166000,
+            "typeF": 0,
+            "minMonth": 0,
+            "step": 0,
+            "flightType": 0,
+            "id": "630868af6f703b6a3671b816"
+        }
+    ]
+}
