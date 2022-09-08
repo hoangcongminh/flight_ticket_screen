@@ -3,7 +3,7 @@ class Date {
   int? code;
   String? message;
   String? meta;
-  List<Data>? data;
+  List<DateItem>? data;
 
   Date({this.success, this.code, this.message, this.meta, this.data});
 
@@ -13,9 +13,9 @@ class Date {
     message = json['message'];
     meta = json['meta'];
     if (json['data'] != null) {
-      data = <Data>[];
+      data = <DateItem>[];
       json['data'].forEach((v) {
-        data!.add(Data.fromJson(v));
+        data!.add(DateItem.fromJson(v));
       });
     }
   }
@@ -33,23 +33,24 @@ class Date {
   }
 }
 
-class Data {
+class DateItem {
   String? currency;
-  String? departDate;
+  DateTime? departDate;
   int? totalPrice;
   String? airline;
   int? priceUnit;
 
-  Data(
-      {this.currency,
-      this.departDate,
-      this.totalPrice,
-      this.airline,
-      this.priceUnit});
+  DateItem({
+    this.currency,
+    this.departDate,
+    this.totalPrice,
+    this.airline,
+    this.priceUnit,
+  });
 
-  Data.fromJson(Map<String, dynamic> json) {
+  DateItem.fromJson(Map<String, dynamic> json) {
     currency = json['currency'];
-    departDate = json['departDate'];
+    departDate = DateTime.parse(json['departDate']);
     totalPrice = json['totalPrice'];
     airline = json['airline'];
     priceUnit = json['priceUnit'];
@@ -63,5 +64,21 @@ class Data {
     data['airline'] = airline;
     data['priceUnit'] = priceUnit;
     return data;
+  }
+
+  DateItem copyWith({
+    String? currency,
+    DateTime? departDate,
+    int? totalPrice,
+    String? airline,
+    int? priceUnit,
+  }) {
+    return DateItem(
+      currency: currency ?? this.currency,
+      departDate: departDate ?? this.departDate,
+      totalPrice: totalPrice ?? this.totalPrice,
+      airline: airline ?? this.airline,
+      priceUnit: priceUnit ?? this.priceUnit,
+    );
   }
 }

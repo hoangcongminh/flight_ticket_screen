@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:ticket/bloc/date_bloc.dart';
 import 'package:ticket/bloc/ticket_bloc.dart';
 import 'package:ticket/pages/home_screen.dart';
 
@@ -13,8 +14,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => TicketBloc()..add(const FetchTicketEvent()),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (_) => TicketBloc()..add(FetchTicketEvent())),
+        BlocProvider(create: (_) => DateBloc()..add(const FetchDateEvent())),
+      ],
       child: MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(

@@ -46,7 +46,7 @@ class TicketInfo extends StatelessWidget {
                 Row(
                   children: [
                     Image.network(
-                      'https://media.hahalolo.com/other/flight/logo/VJ.png',
+                      '${selectedTicket!.fd100!.first.fd300!.first.d800!.dv810}/${selectedTicket!.fd100!.first.fd300!.first.d800!.dv803}',
                       width: 60,
                       height: 60,
                     ),

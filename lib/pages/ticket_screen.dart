@@ -4,8 +4,8 @@ import 'package:ticket/bloc/ticket_bloc.dart';
 import 'package:ticket/theme.dart';
 import 'package:ticket/widget/ticket_widget.dart';
 
-import '../widget/date_widget.dart';
 import '../widget/route_widget.dart';
+import 'list_date_widget.dart';
 
 class TicketScreen extends StatefulWidget {
   final bool isSelectReturnTicket;
@@ -21,6 +21,10 @@ class TicketScreen extends StatefulWidget {
 }
 
 class _TicketScreenState extends State<TicketScreen> {
+  // final ItemScrollController _scrollController = ItemScrollController();
+  // final ItemPositionsListener _itemPositionsListener =
+  //     ItemPositionsListener.create();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: BlocBuilder<TicketBloc, TicketState>(
@@ -53,7 +57,15 @@ class _TicketScreenState extends State<TicketScreen> {
                 ),
                 actions: [
                   IconButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      showDialog(
+                          context: context,
+                          builder: (context) {
+                            return FilterDialog(
+                              isSelectReturnTicket: widget.isSelectReturnTicket,
+                            );
+                          });
+                    },
                     icon: const Icon(Icons.edit),
                   ),
                 ],
@@ -70,23 +82,8 @@ class _TicketScreenState extends State<TicketScreen> {
                         ),
                       ),
                     ),
-                    child: ListView.builder(
-                      scrollDirection: Axis.horizontal,
-                      itemCount: state.date.data!.length,
-                      itemBuilder: (context, index) {
-                        return GestureDetector(
-                            onTap: () =>
-                                context.read<TicketBloc>().add(SelectDateEvent(
-                                      selectedDate: index,
-                                    )),
-                            child: DateWidget(
-                              isSelected: index == state.selectedDate,
-                              departDate: DateTime.parse(
-                                  state.date.data![index].departDate!),
-                              totalPrice: state.date.data![index].totalPrice!,
-                            ));
-                      },
-                    ),
+                    child: ListDateWidget(
+                        isSelectReturnTicket: widget.isSelectReturnTicket),
                   ),
                 ),
               ),
@@ -187,6 +184,109 @@ class _TicketScreenState extends State<TicketScreen> {
         }
       },
     ));
+  }
+}
+
+class FilterDialog extends StatefulWidget {
+  final bool isSelectReturnTicket;
+  const FilterDialog({Key? key, required this.isSelectReturnTicket})
+      : super(key: key);
+
+  @override
+  State<FilterDialog> createState() => _FilterDialogState();
+}
+
+class _FilterDialogState extends State<FilterDialog> {
+  int priceValue = 0;
+  int flightValue = 0;
+  int landingValue = 0;
+  @override
+  Widget build(BuildContext context) {
+    return AlertDialog(
+      title: const Text("Filter"),
+      content: SingleChildScrollView(
+        child: ListBody(
+          children: [
+            FilterItem(
+              name: 'Giá',
+              value: priceValue,
+              onChange: (value) {
+                setState(() {
+                  priceValue = value;
+                });
+              },
+            ),
+            FilterItem(
+              name: 'Giờ bay',
+              value: flightValue,
+              onChange: (value) {
+                setState(() {
+                  flightValue = value;
+                });
+              },
+            ),
+            FilterItem(
+              name: 'Giờ hạ cánh',
+              value: landingValue,
+              onChange: (value) {
+                setState(() {
+                  landingValue = value;
+                });
+              },
+            ),
+          ],
+        ),
+      ),
+      actions: [
+        TextButton(
+          child: const Text('Filter'),
+          onPressed: () {
+            Navigator.of(context).pop();
+            context.read<TicketBloc>().add(
+                  SortTicket(
+                    isReturnTickets: widget.isSelectReturnTicket,
+                    priceValue: priceValue,
+                    flightValue: flightValue,
+                    landingValue: landingValue,
+                  ),
+                );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+class FilterItem extends StatelessWidget {
+  final String name;
+  final int value;
+  final Function(int) onChange;
+  const FilterItem({
+    Key? key,
+    required this.name,
+    required this.value,
+    required this.onChange,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Text(name),
+        const Spacer(),
+        DropdownButton<int>(
+          value: value,
+          items: const [
+            DropdownMenuItem(value: 0, child: Text('Không')),
+            DropdownMenuItem(value: 1, child: Text('Giảm')),
+            DropdownMenuItem(value: 2, child: Text('Tăng')),
+          ],
+          onChanged: (value) {
+            onChange(value ?? 0);
+          },
+        )
+      ],
+    );
   }
 }
 

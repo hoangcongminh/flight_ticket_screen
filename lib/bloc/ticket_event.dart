@@ -7,17 +7,7 @@ abstract class TicketEvent extends Equatable {
   List<Object> get props => [];
 }
 
-class FetchTicketEvent extends TicketEvent {
-  const FetchTicketEvent();
-}
-
-class SelectDateEvent extends TicketEvent {
-  final int selectedDate;
-  const SelectDateEvent({required this.selectedDate});
-
-  @override
-  List<Object> get props => [selectedDate];
-}
+class FetchTicketEvent extends TicketEvent {}
 
 class SelectTicketEvent extends TicketEvent {
   final TicketItem selectedTicket;
@@ -29,4 +19,20 @@ class SelectTicketEvent extends TicketEvent {
 
   @override
   List<Object> get props => [selectedTicket, isReturnTicket];
+}
+
+class SortTicket extends TicketEvent {
+  final bool isReturnTickets;
+  final int priceValue;
+  final int flightValue;
+  final int landingValue;
+  const SortTicket({
+    required this.isReturnTickets,
+    required this.priceValue,
+    required this.flightValue,
+    required this.landingValue,
+  });
+
+  @override
+  List<Object> get props => [priceValue, flightValue, landingValue];
 }

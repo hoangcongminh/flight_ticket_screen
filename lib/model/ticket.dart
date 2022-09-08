@@ -1,3 +1,5 @@
+import 'package:equatable/equatable.dart';
+
 class Ticket {
   bool? success;
   int? code;
@@ -12,9 +14,9 @@ class Ticket {
     code = json['code'];
     message = json['message'];
     meta = json['meta'];
-    if (json['data'] != null) {
+    if (json['elements'] != null) {
       data = <TicketItem>[];
-      json['data'].forEach((v) {
+      json['elements'].forEach((v) {
         data!.add(TicketItem.fromJson(v));
       });
     }

@@ -15,15 +15,14 @@ class TicketBloc extends Bloc<TicketEvent, TicketState> {
   TicketBloc() : super(TicketInitial()) {
     on<TicketEvent>((event, emit) {});
     on<FetchTicketEvent>(_fetchTickets);
-    on<SelectDateEvent>(_selectDate);
     on<SelectTicketEvent>(_selectTicket);
+    on<SortTicket>(_sortTicket);
   }
 
   FutureOr<void> _fetchTickets(
       FetchTicketEvent event, Emitter<TicketState> emit) async {
     emit(TicketLoading());
-    var jsonTicket =
-        await rootBundle.loadString('assets/data/ticket_route_chip.json');
+    var jsonTicket = await rootBundle.loadString('assets/data/json_2.json');
     var jsonDate = await rootBundle.loadString('assets/data/date.json');
 
     emit(TicketLoaded(
@@ -40,14 +39,6 @@ class TicketBloc extends Bloc<TicketEvent, TicketState> {
     ));
   }
 
-  FutureOr<void> _selectDate(SelectDateEvent event, Emitter<TicketState> emit) {
-    if (state is TicketLoaded) {
-      final state = this.state as TicketLoaded;
-
-      emit(state.copyWith(selectedDate: event.selectedDate));
-    }
-  }
-
   Future<void> _selectTicket(
       SelectTicketEvent event, Emitter<TicketState> emit) async {
     if (state is TicketLoaded) {
@@ -61,6 +52,46 @@ class TicketBloc extends Bloc<TicketEvent, TicketState> {
           selectedTicket: event.selectedTicket,
         ));
       }
+    }
+  }
+
+  Future<void> _sortTicket(SortTicket event, Emitter<TicketState> emit) async {
+    if (state is TicketLoaded) {
+      final state = this.state as TicketLoaded;
+      emit(TicketLoading());
+
+      final tickets =
+          event.isReturnTickets ? state.returnTickets : state.tickets;
+      if (event.priceValue == 1) {
+        tickets.sort((b, a) => a.dn425!.compareTo(b.dn425!));
+      } else if (event.priceValue == 2) {
+        tickets.sort((a, b) => a.dn425!.compareTo(b.dn425!));
+      }
+      if (event.flightValue == 1) {
+        tickets.sort((b, a) =>
+            a.fd100!.first.dd106![1].compareTo(b.fd100!.first.dd106![1]));
+      } else if (event.flightValue == 2) {
+        tickets.sort((a, b) =>
+            a.fd100!.first.dd106![1].compareTo(b.fd100!.first.dd106![1]));
+      }
+      if (event.landingValue == 1) {
+        tickets.sort((b, a) =>
+            a.fd100!.first.dd106![1].compareTo(b.fd100!.first.dd107![1]));
+      } else if (event.landingValue == 2) {
+        tickets.sort((a, b) =>
+            a.fd100!.first.dd106![1].compareTo(b.fd100!.first.dd107![1]));
+      }
+      event.isReturnTickets
+          ? emit(
+              state.copyWith(
+                returnTickets: List.of(tickets),
+              ),
+            )
+          : emit(
+              state.copyWith(
+                tickets: List.of(tickets),
+              ),
+            );
     }
   }
 }
