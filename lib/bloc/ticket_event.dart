@@ -23,16 +23,36 @@ class SelectTicketEvent extends TicketEvent {
 
 class SortTicket extends TicketEvent {
   final bool isReturnTickets;
-  final int priceValue;
-  final int flightValue;
-  final int landingValue;
+  final int? priceValue;
+  final int? flightValue;
+  final int? landingValue;
   const SortTicket({
     required this.isReturnTickets,
-    required this.priceValue,
-    required this.flightValue,
-    required this.landingValue,
+    this.priceValue,
+    this.flightValue,
+    this.landingValue,
   });
 
   @override
-  List<Object> get props => [priceValue, flightValue, landingValue];
+  List<Object> get props => [
+        isReturnTickets,
+      ];
+}
+
+class FilterTicket extends TicketEvent {
+  final bool isReturnTickets;
+  final bool? isVNA;
+  final bool? isDepartBefore12;
+  final bool? isPriceLessThan5Mil;
+  const FilterTicket({
+    required this.isReturnTickets,
+    this.isVNA,
+    this.isDepartBefore12,
+    this.isPriceLessThan5Mil,
+  });
+
+  @override
+  List<Object> get props => [
+        isReturnTickets,
+      ];
 }

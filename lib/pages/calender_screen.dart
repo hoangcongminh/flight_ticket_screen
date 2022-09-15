@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:paged_vertical_calendar/paged_vertical_calendar.dart';
+import 'package:shimmer/shimmer.dart';
 import 'package:ticket/theme.dart';
 import 'package:ticket/utils/datetime_extension.dart';
 
@@ -45,87 +46,103 @@ class _CalenderViewState extends State<CalenderView> {
             Expanded(
               child: BlocBuilder<DateBloc, DateState>(
                 builder: (context, state) {
-                  if (state.status == DateStatus.success) {
-                    return PagedVerticalCalendar(
-                      invisibleMonthsThreshold: 2,
-                      initialDate: DateTime.now(),
-                      addAutomaticKeepAlives: true,
-                      onMonthLoaded: (year, month) {
-                        context.read<DateBloc>().add(const FetchDateEvent(30));
-                      },
-                      startWeekWithSunday: true,
-                      onDayPressed: (date) {
-                        setState(() {
-                          selectedDate = date;
-                        });
-                      },
-                      monthBuilder: (context, month, year) {
-                        return Padding(
-                          padding: const EdgeInsets.all(8.0),
-                          child: Row(
-                            children: [
-                              Text(
-                                'Thang $month, $year',
-                                style: boldText,
-                              ),
-                            ],
-                          ),
-                        );
-                      },
-                      dayBuilder: (context, date) {
-                        final isToday = date.isSameDate(now);
-                        final isSelected = date.isSameDate(selectedDate);
-                        return Column(
-                          mainAxisAlignment: MainAxisAlignment.start,
+                  return PagedVerticalCalendar(
+                    invisibleMonthsThreshold: 2,
+                    initialDate: DateTime.now(),
+                    addAutomaticKeepAlives: true,
+                    onMonthLoaded: (year, month) {
+                      context.read<DateBloc>().add(const FetchDateEvent(30));
+                    },
+                    startWeekWithSunday: true,
+                    onDayPressed: (date) {
+                      setState(() {
+                        selectedDate = date;
+                      });
+                    },
+                    monthBuilder: (context, month, year) {
+                      return Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Row(
                           children: [
-                            Expanded(
-                              child: Container(
-                                width: double.infinity,
-                                margin: const EdgeInsets.all(6.0),
-                                decoration: BoxDecoration(
-                                  border: isToday && !isSelected
-                                      ? Border.all(color: Colors.grey)
-                                      : null,
-                                  color: isSelected ? Colors.blue : null,
-                                  shape: BoxShape.circle,
-                                ),
-                                child: Center(
-                                  child: Text(
-                                    date.day.toString(),
-                                    style: TextStyle(
-                                      color: isSelected
-                                          ? Colors.white
-                                          : date.isAfter(now) || isToday
-                                              ? Colors.black
-                                              : Colors.grey,
-                                    ),
+                            Text(
+                              'Thang $month, $year',
+                              style: boldText,
+                            ),
+                          ],
+                        ),
+                      );
+                    },
+                    dayBuilder: (context, date) {
+                      final isToday = date.isSameDate(now);
+                      final isSelected = date.isSameDate(selectedDate);
+                      return Column(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Expanded(
+                            child: Container(
+                              width: double.infinity,
+                              margin: const EdgeInsets.all(6.0),
+                              decoration: BoxDecoration(
+                                border: isToday && !isSelected
+                                    ? Border.all(color: Colors.grey)
+                                    : null,
+                                color: isSelected ? Colors.blue : null,
+                                shape: BoxShape.circle,
+                              ),
+                              child: Center(
+                                child: Text(
+                                  date.day.toString(),
+                                  style: TextStyle(
+                                    color: isSelected
+                                        ? Colors.white
+                                        : date.isAfter(now) || isToday
+                                            ? Colors.black
+                                            : Colors.grey,
                                   ),
                                 ),
                               ),
                             ),
-                            if (state.date!
-                                .where((element) =>
-                                    element.departDate!.isSameDate(date))
-                                .isNotEmpty)
-                              Text(
-                                NumberFormat.currency(
-                                        locale: "vi_VN", symbol: "₫")
-                                    .format(
-                                  state.date!
+                          ),
+                          state.date!
                                       .where((element) =>
                                           element.departDate!.isSameDate(date))
-                                      .first
-                                      .totalPrice,
-                                ),
-                                style: const TextStyle(fontSize: 10),
-                              ),
-                          ],
-                        );
-                      },
-                    );
-                  } else {
-                    return Container();
-                  }
+                                      .isNotEmpty &&
+                                  state.date!
+                                          .where((element) => element
+                                              .departDate!
+                                              .isSameDate(date))
+                                          .first
+                                          .totalPrice !=
+                                      0
+                              ? Text(
+                                  NumberFormat.currency(
+                                          locale: "vi_VN", symbol: "₫")
+                                      .format(
+                                    state.date!
+                                        .where((element) => element.departDate!
+                                            .isSameDate(date))
+                                        .first
+                                        .totalPrice,
+                                  ),
+                                  style: const TextStyle(fontSize: 10),
+                                )
+                              : date.isAfter(DateTime.now())
+                                  ? Shimmer.fromColors(
+                                      baseColor: Colors.grey.shade400,
+                                      highlightColor: Colors.grey.shade200,
+                                      child: Container(
+                                          width: 40,
+                                          height: 8,
+                                          decoration: BoxDecoration(
+                                              color: Colors.grey,
+                                              borderRadius:
+                                                  BorderRadius.circular(30))),
+                                    )
+                                  : Container(),
+                        ],
+                      );
+                    },
+                  );
                 },
               ),
             ),

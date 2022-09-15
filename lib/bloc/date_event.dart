@@ -4,13 +4,15 @@ abstract class DateEvent extends Equatable {
   const DateEvent();
 
   @override
-  List<Object> get props => [];
+  List<Object?> get props => [];
 }
 
 class FetchDateEvent extends DateEvent {
   final int? fetchNums;
 
   const FetchDateEvent([this.fetchNums]);
+  @override
+  List<Object?> get props => [fetchNums];
 }
 
 class SelectDepartDateEvent extends DateEvent {

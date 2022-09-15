@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:ticket/bloc/ticket_bloc.dart';
 import 'package:ticket/theme.dart';
 import 'package:ticket/widget/ticket_widget.dart';
@@ -21,10 +22,6 @@ class TicketScreen extends StatefulWidget {
 }
 
 class _TicketScreenState extends State<TicketScreen> {
-  // final ItemScrollController _scrollController = ItemScrollController();
-  // final ItemPositionsListener _itemPositionsListener =
-  //     ItemPositionsListener.create();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(body: BlocBuilder<TicketBloc, TicketState>(
@@ -58,13 +55,29 @@ class _TicketScreenState extends State<TicketScreen> {
                 actions: [
                   IconButton(
                     onPressed: () {
-                      showDialog(
-                          context: context,
-                          builder: (context) {
-                            return FilterDialog(
-                              isSelectReturnTicket: widget.isSelectReturnTicket,
-                            );
-                          });
+                      showSortWidget(context);
+                    },
+                    icon: const Icon(Icons.sort),
+                  ),
+                  IconButton(
+                    onPressed: () {
+                      showMaterialModalBottomSheet(
+                        expand: false,
+                        context: context,
+                        backgroundColor: Colors.transparent,
+                        builder: (context) => FilterBottmSheet(
+                          isReturnTicket: widget.isSelectReturnTicket,
+                          isVNA: widget.isSelectReturnTicket
+                              ? state.isVNAReturn ?? false
+                              : state.isVNA ?? false,
+                          isDepartBefore12: widget.isSelectReturnTicket
+                              ? state.isDepartBefore12Return ?? false
+                              : state.isDepartBefore12 ?? false,
+                          isPriceLessThan5Mil: widget.isSelectReturnTicket
+                              ? state.isPriceLessThan5MilReturn ?? false
+                              : state.isPriceLessThan5Mil ?? false,
+                        ),
+                      );
                     },
                     icon: const Icon(Icons.edit),
                   ),
@@ -172,7 +185,9 @@ class _TicketScreenState extends State<TicketScreen> {
                       ),
                     );
                   },
-                  childCount: state.tickets.length, // 1000 list items
+                  childCount: !widget.isSelectReturnTicket
+                      ? state.tickets.length
+                      : state.returnTickets.length, // 1000 list items
                 ),
               ),
             ],
@@ -185,107 +200,189 @@ class _TicketScreenState extends State<TicketScreen> {
       },
     ));
   }
-}
 
-class FilterDialog extends StatefulWidget {
-  final bool isSelectReturnTicket;
-  const FilterDialog({Key? key, required this.isSelectReturnTicket})
-      : super(key: key);
+  Future<void> showSortWidget(BuildContext context) {
+    return showMaterialModalBottomSheet(
+      expand: false,
+      context: context,
+      backgroundColor: Colors.transparent,
+      builder: (context) => Material(
+        child: SafeArea(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ListTile(
+                title: const Text('Gia giam'),
+                onTap: () {
+                  Navigator.of(context).pop();
+                  context.read<TicketBloc>().add(
+                        SortTicket(
+                          isReturnTickets: widget.isSelectReturnTicket,
+                          priceValue: 1,
+                        ),
+                      );
+                },
+              ),
+              ListTile(
+                title: const Text('Gia tang'),
+                onTap: () {
+                  Navigator.of(context).pop();
+                  context.read<TicketBloc>().add(
+                        SortTicket(
+                          isReturnTickets: widget.isSelectReturnTicket,
+                          priceValue: 2,
+                        ),
+                      );
+                },
+              ),
+              ListTile(
+                title: const Text('Gio bay giam'),
+                onTap: () {
+                  Navigator.of(context).pop();
 
-  @override
-  State<FilterDialog> createState() => _FilterDialogState();
-}
+                  context.read<TicketBloc>().add(
+                        SortTicket(
+                          isReturnTickets: widget.isSelectReturnTicket,
+                          flightValue: 1,
+                        ),
+                      );
+                },
+              ),
+              ListTile(
+                title: const Text('Gio bay tang'),
+                onTap: () {
+                  Navigator.of(context).pop();
 
-class _FilterDialogState extends State<FilterDialog> {
-  int priceValue = 0;
-  int flightValue = 0;
-  int landingValue = 0;
-  @override
-  Widget build(BuildContext context) {
-    return AlertDialog(
-      title: const Text("Filter"),
-      content: SingleChildScrollView(
-        child: ListBody(
-          children: [
-            FilterItem(
-              name: 'Giá',
-              value: priceValue,
-              onChange: (value) {
-                setState(() {
-                  priceValue = value;
-                });
-              },
-            ),
-            FilterItem(
-              name: 'Giờ bay',
-              value: flightValue,
-              onChange: (value) {
-                setState(() {
-                  flightValue = value;
-                });
-              },
-            ),
-            FilterItem(
-              name: 'Giờ hạ cánh',
-              value: landingValue,
-              onChange: (value) {
-                setState(() {
-                  landingValue = value;
-                });
-              },
-            ),
-          ],
+                  context.read<TicketBloc>().add(
+                        SortTicket(
+                          isReturnTickets: widget.isSelectReturnTicket,
+                          flightValue: 2,
+                        ),
+                      );
+                },
+              ),
+              ListTile(
+                title: const Text('Gio ha canh giam'),
+                onTap: () {
+                  Navigator.of(context).pop();
+                  context.read<TicketBloc>().add(
+                        SortTicket(
+                          isReturnTickets: widget.isSelectReturnTicket,
+                          landingValue: 1,
+                        ),
+                      );
+                },
+              ),
+              ListTile(
+                title: const Text('Gio ha canh tang'),
+                onTap: () {
+                  Navigator.of(context).pop();
+                  context.read<TicketBloc>().add(
+                        SortTicket(
+                          isReturnTickets: widget.isSelectReturnTicket,
+                          landingValue: 2,
+                        ),
+                      );
+                },
+              )
+            ],
+          ),
         ),
       ),
-      actions: [
-        TextButton(
-          child: const Text('Filter'),
-          onPressed: () {
-            Navigator.of(context).pop();
-            context.read<TicketBloc>().add(
-                  SortTicket(
-                    isReturnTickets: widget.isSelectReturnTicket,
-                    priceValue: priceValue,
-                    flightValue: flightValue,
-                    landingValue: landingValue,
-                  ),
-                );
-          },
-        ),
-      ],
     );
   }
 }
 
-class FilterItem extends StatelessWidget {
-  final String name;
-  final int value;
-  final Function(int) onChange;
-  const FilterItem({
-    Key? key,
-    required this.name,
-    required this.value,
-    required this.onChange,
-  }) : super(key: key);
+class FilterBottmSheet extends StatefulWidget {
+  final bool isReturnTicket;
+  final bool isVNA;
+  final bool isDepartBefore12;
+  final bool isPriceLessThan5Mil;
+  const FilterBottmSheet({
+    super.key,
+    required this.isReturnTicket,
+    required this.isVNA,
+    required this.isDepartBefore12,
+    required this.isPriceLessThan5Mil,
+  });
+
+  @override
+  State<FilterBottmSheet> createState() => _FilterBottmSheetState();
+}
+
+class _FilterBottmSheetState extends State<FilterBottmSheet> {
+  late bool isVNA;
+  late bool isDepartBefore12;
+  late bool isPriceLessThan5Mil;
+  @override
+  void initState() {
+    isVNA = widget.isVNA;
+    isDepartBefore12 = widget.isDepartBefore12;
+    isPriceLessThan5Mil = widget.isPriceLessThan5Mil;
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Text(name),
-        const Spacer(),
-        DropdownButton<int>(
-          value: value,
-          items: const [
-            DropdownMenuItem(value: 0, child: Text('Không')),
-            DropdownMenuItem(value: 1, child: Text('Giảm')),
-            DropdownMenuItem(value: 2, child: Text('Tăng')),
+    return Material(
+      child: SafeArea(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            CheckboxListTile(
+              title: const Text('VNA'),
+              value: isVNA,
+              onChanged: (newValue) {
+                setState(() {
+                  isVNA = newValue!;
+                });
+              },
+            ),
+            CheckboxListTile(
+              title: const Text('Giờ khởi hành < 12h'),
+              value: isDepartBefore12,
+              onChanged: (newValue) {
+                setState(() {
+                  isDepartBefore12 = newValue!;
+                });
+              },
+            ),
+            CheckboxListTile(
+              title: const Text('Giá < 5tr'),
+              value: isPriceLessThan5Mil,
+              onChanged: (newValue) {
+                setState(() {
+                  isPriceLessThan5Mil = newValue!;
+                });
+              },
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: const Text('Thoát'),
+                ),
+                const SizedBox(width: 10),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                    context.read<TicketBloc>().add(FilterTicket(
+                          isReturnTickets: widget.isReturnTicket,
+                          isVNA: isVNA,
+                          isDepartBefore12: isDepartBefore12,
+                          isPriceLessThan5Mil: isPriceLessThan5Mil,
+                        ));
+                  },
+                  child: const Text('Lọc'),
+                )
+              ],
+            )
           ],
-          onChanged: (value) {
-            onChange(value ?? 0);
-          },
-        )
-      ],
+        ),
+      ),
     );
   }
 }

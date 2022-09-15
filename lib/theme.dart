@@ -22,8 +22,8 @@ TextStyle ticketPriceStyle = const TextStyle(
   fontWeight: FontWeight.bold,
 );
 
-TextStyle appbarTop = const TextStyle(color: Colors.black, fontSize: 15);
-TextStyle appbarBottom = const TextStyle(color: Colors.grey, fontSize: 12);
+TextStyle appbarTop = const TextStyle(color: Colors.black, fontSize: 10);
+TextStyle appbarBottom = const TextStyle(color: Colors.grey, fontSize: 8);
 
 TextStyle selectedText = const TextStyle(color: Colors.white);
 TextStyle selectedTextBold =

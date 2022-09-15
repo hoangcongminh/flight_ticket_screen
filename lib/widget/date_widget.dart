@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:shimmer/shimmer.dart';
 import 'package:ticket/theme.dart';
 
 class DateWidget extends StatelessWidget {
@@ -32,11 +33,22 @@ class DateWidget extends StatelessWidget {
             style: isSelected ? selectedText : null,
           ),
           const SizedBox(height: 8),
-          Text(
-            NumberFormat.currency(locale: "vi_VN", symbol: "₫")
-                .format(totalPrice),
-            style: isSelected ? selectedTextBold : boldText,
-          ),
+          totalPrice == 0
+              ? Shimmer.fromColors(
+                  baseColor: Colors.grey.shade400,
+                  highlightColor: Colors.grey.shade200,
+                  child: Container(
+                      width: 50,
+                      height: 10,
+                      decoration: BoxDecoration(
+                          color: Colors.grey,
+                          borderRadius: BorderRadius.circular(30))),
+                )
+              : Text(
+                  NumberFormat.currency(locale: "vi_VN", symbol: "₫")
+                      .format(totalPrice),
+                  style: isSelected ? selectedTextBold : boldText,
+                ),
         ],
       ),
     );

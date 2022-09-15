@@ -1,5 +1,3 @@
-import 'package:equatable/equatable.dart';
-
 class Ticket {
   bool? success;
   int? code;

@@ -23,11 +23,16 @@ class DateBloc extends Bloc<DateEvent, DateState> {
   Future<void> _fetchDates(
       FetchDateEvent event, Emitter<DateState> emit) async {
     if (state.status == DateStatus.initial) {
+      emit(state.copyWith(status: DateStatus.loading));
+
+      //read from json file
       var jsonDate = await rootBundle.loadString('assets/data/date.json');
       final Date date = Date.fromJson(json.decode(jsonDate));
+
       final currentDate = date.data!
           .where((element) => element.departDate!.isSameDate(DateTime.now()));
       dates.addAll(date.data!);
+
       return emit(
         state.copyWith(
           status: DateStatus.success,
@@ -40,19 +45,40 @@ class DateBloc extends Bloc<DateEvent, DateState> {
         ),
       );
     }
-    final List<DateItem> newList = [];
+
+    //fetch tempList
+    final List<DateItem> tempList = [];
     final lastDate = state.date!.last;
-    await Future.delayed(const Duration(seconds: 1));
+
     final fetchNums = event.fetchNums ?? 7;
+
+    for (int i = 1; i <= fetchNums; i++) {
+      tempList.add(lastDate.copyWith(
+        departDate: lastDate.departDate!.add(Duration(days: i)),
+        totalPrice: 0,
+      ));
+    }
+    emit(state.copyWith(
+      status: DateStatus.success,
+      date: List.of(state.date!)..addAll(tempList),
+      isScroll: false,
+    ));
+
+    await Future.delayed(const Duration(seconds: 5));
+
+    final List<DateItem> newListDates = [];
+
     for (int i = 1; i <= fetchNums; i++) {
       final randomPrice = 100000 + Random().nextInt(1000000 - 100000);
-      newList.add(lastDate.copyWith(
+      newListDates.add(lastDate.copyWith(
         departDate: lastDate.departDate!.add(Duration(days: i)),
         totalPrice: randomPrice,
       ));
     }
+    dates.addAll(newListDates);
     emit(state.copyWith(
-      date: List.of(state.date!)..addAll(newList),
+      status: DateStatus.success,
+      date: dates,
       isScroll: false,
     ));
   }

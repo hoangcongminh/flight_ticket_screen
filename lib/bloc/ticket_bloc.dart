@@ -17,6 +17,7 @@ class TicketBloc extends Bloc<TicketEvent, TicketState> {
     on<FetchTicketEvent>(_fetchTickets);
     on<SelectTicketEvent>(_selectTicket);
     on<SortTicket>(_sortTicket);
+    on<FilterTicket>(_filterTicket);
   }
 
   FutureOr<void> _fetchTickets(
@@ -25,17 +26,20 @@ class TicketBloc extends Bloc<TicketEvent, TicketState> {
     var jsonTicket = await rootBundle.loadString('assets/data/json_2.json');
     var jsonDate = await rootBundle.loadString('assets/data/date.json');
 
+    tickets.addAll(Ticket.fromJson(jsonDecode(jsonTicket))
+        .data!
+        .where((element) => element.dn404 == 0)
+        .toList());
+    returnTickets.addAll(Ticket.fromJson(jsonDecode(jsonTicket))
+        .data!
+        .where((element) => element.dn404 == 1)
+        .toList());
+
     emit(TicketLoaded(
       selectedDate: 0,
       date: Date.fromJson(jsonDecode(jsonDate)),
-      tickets: Ticket.fromJson(jsonDecode(jsonTicket))
-          .data!
-          .where((element) => element.dn404 == 0)
-          .toList(),
-      returnTickets: Ticket.fromJson(jsonDecode(jsonTicket))
-          .data!
-          .where((element) => element.dn404 == 1)
-          .toList(),
+      tickets: tickets,
+      returnTickets: returnTickets,
     ));
   }
 
@@ -60,6 +64,7 @@ class TicketBloc extends Bloc<TicketEvent, TicketState> {
       final state = this.state as TicketLoaded;
       emit(TicketLoading());
 
+      await Future.delayed(const Duration(seconds: 1));
       final tickets =
           event.isReturnTickets ? state.returnTickets : state.tickets;
       if (event.priceValue == 1) {
@@ -94,4 +99,49 @@ class TicketBloc extends Bloc<TicketEvent, TicketState> {
             );
     }
   }
+
+  Future<void> _filterTicket(
+      FilterTicket event, Emitter<TicketState> emit) async {
+    if (state is TicketLoaded) {
+      final state = this.state as TicketLoaded;
+      emit(TicketLoading());
+      await Future.delayed(const Duration(seconds: 1));
+
+      List<TicketItem> filteredTickets =
+          event.isReturnTickets ? returnTickets : tickets;
+
+      if (event.isVNA ?? false) {
+        filteredTickets =
+            filteredTickets.where((element) => element.dv402 == "VN").toList();
+      }
+      if (event.isDepartBefore12 ?? false) {
+        filteredTickets = filteredTickets
+            .where((element) =>
+                int.parse(element.fd100!.first.dd106![1].split(":")[0]) < 12)
+            .toList();
+      }
+      if (event.isPriceLessThan5Mil ?? false) {
+        filteredTickets = filteredTickets
+            .where((element) => element.dn425! < 5000000)
+            .toList();
+      }
+
+      event.isReturnTickets
+          ? emit(state.copyWith(
+              returnTickets: List.of(filteredTickets),
+              isVNAReturn: event.isVNA,
+              isDepartBefore12Return: event.isDepartBefore12,
+              isPriceLessThan5MilReturn: event.isPriceLessThan5Mil,
+            ))
+          : emit(state.copyWith(
+              tickets: List.of(filteredTickets),
+              isVNA: event.isVNA,
+              isDepartBefore12: event.isDepartBefore12,
+              isPriceLessThan5Mil: event.isPriceLessThan5Mil,
+            ));
+    }
+  }
+
+  final List<TicketItem> tickets = [];
+  final List<TicketItem> returnTickets = [];
 }
