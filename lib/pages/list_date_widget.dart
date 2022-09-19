@@ -19,6 +19,7 @@ class _ListDateWidgetState extends State<ListDateWidget> {
   final ItemScrollController itemScrollController = ItemScrollController();
   final ItemPositionsListener itemPositionsListener =
       ItemPositionsListener.create();
+
   void setupScrollController(context) {
     itemPositionsListener.itemPositions.addListener(() {
       if (itemPositionsListener.itemPositions.value.last.index ==
@@ -30,7 +31,6 @@ class _ListDateWidgetState extends State<ListDateWidget> {
 
   @override
   void dispose() {
-    // _autoScrollController.dispose();
     super.dispose();
   }
 
@@ -108,80 +108,6 @@ class _ListDateWidgetState extends State<ListDateWidget> {
               )
             ],
           );
-
-          // if (state.isScroll!) {
-          //   WidgetsBinding.instance.addPostFrameCallback((_) {
-          //     _autoScrollController.scrollToIndex(
-          //       state.date!.map((e) => e.departDate).toList().indexOf(
-          //             widget.isSelectReturnTicket
-          //                 ? context.read<DateBloc>().state.selectedReturnDate
-          //                 : context.read<DateBloc>().state.selectedDepartDate,
-          //           ),
-          //       preferPosition: AutoScrollPosition.middle,
-          //     );
-          //   });
-          // }
-          // return Row(
-          //   children: [
-          //     Expanded(
-          //       child: ListView.builder(
-          //         controller: _autoScrollController,
-          //         scrollDirection: Axis.horizontal,
-          //         itemCount: state.date!.length,
-          //         itemBuilder: (context, index) {
-          //           return AutoScrollTag(
-          //             key: ValueKey(index),
-          //             controller: _autoScrollController,
-          //             index: index,
-          //             child: GestureDetector(
-          //               onTap: state.date![index].departDate!
-          //                       .isBefore(state.currentDate!)
-          //                   ? null
-          //                   : () => context.read<DateBloc>().add(
-          //                         widget.isSelectReturnTicket
-          //                             ? SelectedReturnDate(
-          //                                 selectedReturnDate:
-          //                                     state.date![index].departDate!)
-          //                             : SelectDepartDateEvent(
-          //                                 selectedDepartDate:
-          //                                     state.date![index].departDate!,
-          //                               ),
-          //                       ),
-          //               child: DateWidget(
-          //                 clickable: state.date![index].departDate!
-          //                     .isBefore(state.currentDate!),
-          //                 isSelected: widget.isSelectReturnTicket
-          //                     ? state.selectedReturnDate!
-          //                         .isSameDate(state.date![index].departDate!)
-          //                     : state.selectedDepartDate!
-          //                         .isSameDate(state.date![index].departDate!),
-          //                 departDate: state.date![index].departDate!,
-          //                 totalPrice: state.date![index].totalPrice!,
-          //               ),
-          //             ),
-          //           );
-          //         },
-          //       ),
-          //     ),
-          //     const SizedBox(width: 8),
-          //     IconButton(
-          //       onPressed: () {
-          //         Navigator.of(context).push(
-          //           MaterialPageRoute(
-          //             builder: (context) => CalenderView(
-          //                 isSelectReturnTicket: widget.isSelectReturnTicket,
-          //                 selectedDate: widget.isSelectReturnTicket
-          //                     ? state.selectedReturnDate!
-          //                     : state.selectedDepartDate!),
-          //           ),
-          //         );
-          //       },
-          //       icon: const Icon(
-          //         Icons.calendar_month,
-          //       ),
-          //     )
-          //   ],
-          // );
         } else {
           return const CircularProgressIndicator();
         }
