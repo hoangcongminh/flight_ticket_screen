@@ -6,34 +6,6 @@
     "data": [
         {
             "currency": "VND",
-            "departDate": "2022-09-21T00:00:00",
-            "totalPrice": 600930,
-            "airline": "VJ",
-            "priceUnit": 0
-        },
-        {
-            "currency": "VND",
-            "departDate": "2022-09-22T00:00:00",
-            "totalPrice": 600930,
-            "airline": "VJ",
-            "priceUnit": 0
-        },
-        {
-            "currency": "VND",
-            "departDate": "2022-09-23T00:00:00",
-            "totalPrice": 600930,
-            "airline": "VJ",
-            "priceUnit": 0
-        },
-        {
-            "currency": "VND",
-            "departDate": "2022-09-24T00:00:00",
-            "totalPrice": 600930,
-            "airline": "VJ",
-            "priceUnit": 0
-        },
-        {
-            "currency": "VND",
             "departDate": "2022-09-25T00:00:00",
             "totalPrice": 600930,
             "airline": "VJ",
@@ -63,6 +35,34 @@
         {
             "currency": "VND",
             "departDate": "2022-09-29T00:00:00",
+            "totalPrice": 600930,
+            "airline": "VJ",
+            "priceUnit": 0
+        },
+        {
+            "currency": "VND",
+            "departDate": "2022-09-30T00:00:00",
+            "totalPrice": 600930,
+            "airline": "VJ",
+            "priceUnit": 0
+        },
+        {
+            "currency": "VND",
+            "departDate": "2022-10-01T00:00:00",
+            "totalPrice": 600930,
+            "airline": "VJ",
+            "priceUnit": 0
+        },
+        {
+            "currency": "VND",
+            "departDate": "2022-10-02T00:00:00",
+            "totalPrice": 600930,
+            "airline": "VJ",
+            "priceUnit": 0
+        },
+        {
+            "currency": "VND",
+            "departDate": "2022-10-03T00:00:00",
             "totalPrice": 600930,
             "airline": "VJ",
             "priceUnit": 0
